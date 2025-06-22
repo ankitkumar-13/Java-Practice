@@ -1,7 +1,12 @@
 SET A
 
-Q1) Write a method validate(int age) that throws an IllegalArgumentException if the age is less than 10, ArithmeticException if age is between 10 and 15, and ParseException if age is more than 60. In the main method, accept user’s age (call validate(age)) and print appropriate error message for each exception (using separate catch blocks for each). Also, print "Validation complete." regardless of the exception's occurrence.
+Q1) Write a method validate(int age) that throws an IllegalArgumentException if the age is less than 10, ArithmeticException if age is between 10 and 15, and ParseException if age is more than 60. In the main 
+method, accept user’s age (call validate(age)) and print appropriate error message for each exception (using separate catch blocks for each). Also, print "Validation complete." regardless of the exception's 
+occurrence.
 
-Q2) Create an abstract class MediaFile with an abstract method play() and a concrete method info(). Define an interface Downloadable with method download(), and create 2 sub-interfaces Sharable and Streamable that extend Downloadable. Create 2 classes AudioFile and VideoFile that uses both MediaFile and Sharable. Ask user whether he wants to create an AudioFile or VideoFile, and call methods of appropriate class by clearly showcasing the use of runtime polymorphism.
+Q2) Create an abstract class MediaFile with an abstract method play() and a concrete method info(). Define an interface Downloadable with method download(), and create 2 sub-interfaces Sharable and Streamable that 
+extend Downloadable. Create 2 classes AudioFile and VideoFile that uses both MediaFile and Sharable. Ask user whether he wants to create an AudioFile or VideoFile, and call methods of appropriate class by clearly 
+showcasing the use of runtime polymorphism.
 
-Q3) Create an array of 3 Student objects (accept data from the user) where each student has a name and rollNumber. Traverse over the array and update name of each student in the database after matching their rollNumber.
+Q3) Create an array of 3 Student objects (accept data from the user) where each student has a name and rollNumber. Traverse over the array and update name of each student in the database after matching their 
+rollNumber.
