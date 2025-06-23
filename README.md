@@ -1,6 +1,6 @@
 ***
 
-PAPER 1:
+### PAPER 1
 SET A
 
 Q1) Write a method validate(int age) that throws an IllegalArgumentException if the age is less than 10, ArithmeticException if age is between 10 and 15, and ParseException if age is more than 60. In the main method, accept user’s age (call validate(age)) and print appropriate error message for each exception (using separate catch blocks for each). Also, print "Validation complete." regardless of the exception's occurrence.
@@ -12,6 +12,7 @@ Q3) Create an array of 3 Student objects (accept data from the user) where each 
 ***
 
 
+### PAPER 2
 **SET B**
 
 **Q1)** WAP that accepts 5 email addresses from user and store them in a HashSet. Ensure no duplicate emails are added, and display a message if a duplicate is attempted. Use an iterator to traverse the set and print alternate email address. Using for loop, print count of all email addresses from the HashSet containing less than 5 characters.
@@ -20,4 +21,26 @@ Q3) Create an array of 3 Student objects (accept data from the user) where each 
 
 **Q3)** WAP to accept user's name and age. Throw an exception and terminate the program with appropriate message if user’s age is less than 18 or more than 60. Otherwise insert name and age into the database, and print how many rows are affected – assuming that a table `User` exists in database with columns `Name` and `Age`.
 
----
+***
+
+
+### PAPER 3
+
+1. **Create the given application using AWT/Swing.** When the convert button would be pressed then the entered temperature would be converted from Celsius to Fahrenheit.
+   Assume 0 C = 32 F. (1C → {(1C \* 9/5) + 32}F).
+
+2. **Create a Java program using file handling** in which you write a logic to identify how many are prime numbers. You must read the data from a file.
+   (File contains at least two numbers separated by `;`, `,` or ` `).
+
+   **File:** `2,7`
+   **Output:** `2`
+
+3. **Write a Java program** that stores the integers `{10, 20, 30, 40, 50}` in an array.
+   Ask the user to enter an index to access an element from the array.
+
+   * If the user enters a non-integer, handle the `InputMismatchException`.
+   * If the index is invalid (e.g., out of bounds), handle the `ArrayIndexOutOfBoundsException`.
+   * Always print **"Program terminated."** at the end using a `finally` block.
+
+***
+
