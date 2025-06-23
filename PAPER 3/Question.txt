@@ -1,0 +1,16 @@
+Q1. Create the given application using AWT/Swing. 
+When the convert button would be pressed then the entered temperature would be 
+converted from Celsius to Fahrenheit. Assume 0 C = 32 F. (1C → {(1C * 9/5) + 32}F).
+
+Q2. Create a Java program using file handling in which you write a logic to identify
+how many are prime numbers. You must read the data from a file. (File contains at least
+two numbers separated by ;, , or  ).
+
+File: 2,7 Output: 2
+
+
+Q3. Write a Java program that stores the integers {10, 20, 30, 40, 50} in an array.
+Ask the user to enter an index to access an element from the array.
+- If the user enters a non-integer, handle the InputMismatchException.
+- If the index is invalid (e.g., out of bounds), handle the ArrayIndexOutOfBoundsException.
+- Always print "Program terminated." at the end using a finally block.
