@@ -10,3 +10,14 @@ Q2) Create an abstract class MediaFile with an abstract method play() and a conc
 Q3) Create an array of 3 Student objects (accept data from the user) where each student has a name and rollNumber. Traverse over the array and update name of each student in the database after matching their rollNumber.
 
 ***
+
+
+**SET B**
+
+**Q1)** WAP that accepts 5 email addresses from user and store them in a HashSet. Ensure no duplicate emails are added, and display a message if a duplicate is attempted. Use an iterator to traverse the set and print alternate email address. Using for loop, print count of all email addresses from the HashSet containing less than 5 characters.
+
+**Q2)** Create an abstract class `Document` with an abstract method `open()` and a concrete method `getType()`. Define an interface `Sharable` with method `share()`, and extend it with `CloudSharable` adding method `uploadToCloud()`. Create two classes `PDFDocument` and `WordDocument` that use `Document` and `CloudSharable`. Demonstrate runtime polymorphism to invoke implemented methods on both classes.
+
+**Q3)** WAP to accept user's name and age. Throw an exception and terminate the program with appropriate message if user’s age is less than 18 or more than 60. Otherwise insert name and age into the database, and print how many rows are affected – assuming that a table `User` exists in database with columns `Name` and `Age`.
+
+---
